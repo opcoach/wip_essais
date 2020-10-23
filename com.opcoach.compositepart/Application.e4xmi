@@ -14,8 +14,10 @@
               <children xsi:type="menu:HandledToolItem" xmi:id="_RWxR0ASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.handledtoolitem.open" label="Open" iconURI="platform:/plugin/com.opcoach.compositepart/icons/home.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
               <children xsi:type="menu:HandledToolItem" xmi:id="_Yd2pQASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.handledtoolitem.open" label="open" iconURI="platform:/plugin/com.opcoach.compositepart/icons/Agency.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
             </toolbar>
-            <trimBars xmi:id="_QQQ8wASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.trimbar.part1">
-              <children xsi:type="menu:ToolBar" xmi:id="_Q5EpMASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.toolbar.7"/>
+            <trimBars xmi:id="_QQQ8wASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.trimbar.rightTrimBarPart1" side="Bottom">
+              <children xsi:type="menu:ToolBar" xmi:id="_Q5EpMASfEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.toolbar.7">
+                <children xsi:type="menu:HandledToolItem" xmi:id="_WMIQwBUSEeu0e7511Xusqg" elementId="com.opcoach.compositepart.handledtoolitem.open" label="SAVE ALL IN TRIMBAR" iconURI="platform:/plugin/com.opcoach.compositepart/icons/save_edit.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+              </children>
             </trimBars>
           </children>
           <children xsi:type="basic:Part" xmi:id="_hIvyQASeEeuZ86mGIB59Xg" elementId="com.opcoach.compositepart.part.part2" contributionURI="bundleclass://com.opcoach.compositepart/com.opcoach.compositepart.parts.SamplePart2" label="Part 2" iconURI="platform:/plugin/com.opcoach.compositepart/icons/Agency.png">
